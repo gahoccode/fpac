@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Flashcards</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Finance Flashcards</h1>
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <p class="progress-text" id="progress-text">0 / 0 mastered</p>
+  </header>
+
+  <nav id="filters">
+    <div class="filter-row">
+      <div class="filter-pills" id="filter-pills"></div>
+      <button class="btn btn-shuffle" id="btn-shuffle" type="button">Shuffle</button>
+      <button class="btn btn-reset" id="btn-reset" type="button">Reset</button>
+    </div>
+  </nav>
+
+  <main>
+    <div class="card-wrapper">
+      <div class="card-container" id="card-container" tabindex="0">
+        <div class="card" id="card">
+          <div class="card-front">
+            <span class="card-category" id="card-category"></span>
+            <span class="card-topic" id="card-topic"></span>
+            <h2 class="card-question" id="card-question"></h2>
+            <p class="card-hint" id="card-hint"></p>
+            <span class="card-flip-prompt">Click or press Space to reveal</span>
+          </div>
+          <div class="card-back">
+            <span class="card-category" id="card-category-back"></span>
+            <span class="card-topic" id="card-topic-back"></span>
+            <div class="card-answer" id="card-answer"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-actions">
+        <button class="btn btn-review" id="btn-review" type="button">Review Again</button>
+        <button class="btn btn-got-it" id="btn-got-it" type="button">Got It</button>
+      </div>
+
+      <div class="card-nav">
+        <button class="btn btn-nav" id="btn-prev" type="button" aria-label="Previous card">&larr;</button>
+        <span class="card-counter" id="card-counter">1 / 1</span>
+        <button class="btn btn-nav" id="btn-next" type="button" aria-label="Next card">&rarr;</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="keyboard-hints">
+      <kbd>Space</kbd> Flip
+      <kbd>&larr;</kbd><kbd>&rarr;</kbd> Navigate
+      <kbd>G</kbd> Got It
+      <kbd>R</kbd> Review Again
+    </p>
+  </footer>
+
+  <script src="js/cards.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
