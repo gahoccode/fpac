@@ -411,16 +411,16 @@ $$EAA = \frac{NPV}{\dfrac{1 - \frac{1}{(1+i)^n}}{i}}$$
 
 | Formula | Expression | Key Variable |
 |---|---|---|
-| PV of Lump Sum | FV / (1+i)^n | Discount rate i, periods n |
-| FV of Lump Sum | PV × (1+i)^n | Compound rate i, periods n |
-| PV of Ordinary Annuity | PMT × (1−(1+r)^−n)/r | Payment PMT |
-| FV of Ordinary Annuity | PMT × ((1+i)^n−1)/i | Payment PMT |
-| FV of Annuity Due | FV Ordinary × (1+i) | Timing adjustment |
-| PV of Perpetuity | PMT / i | No terminal date |
-| PV of Growing Perpetuity | PMT₁ / (i−g) | Growth rate g < i |
-| PV of Growing Annuity | C₁/(r−g) × [1−((1+g)/(1+r))^n] | Finite growing payments |
+| PV of Lump Sum | $\frac{FV}{(1+i)^n}$ | Discount rate i, periods n |
+| FV of Lump Sum | $PV \times (1+i)^n$ | Compound rate i, periods n |
+| PV of Ordinary Annuity | $PMT \times \frac{1-(1+r)^{-n}}{r}$ | Payment PMT |
+| FV of Ordinary Annuity | $PMT \times \frac{(1+i)^n-1}{i}$ | Payment PMT |
+| FV of Annuity Due | $PMT \times \frac{(1+i)^n-1}{i} \times (1+i)$ | Timing adjustment |
+| PV of Perpetuity | $\frac{PMT}{i}$ | No terminal date |
+| PV of Growing Perpetuity | $\frac{PMT_1}{i-g}$ | Growth rate $g < i$ |
+| PV of Growing Annuity | $\frac{C_1}{r-g}\left[1-\left(\frac{1+g}{1+r}\right)^n\right]$ | Finite growing payments |
 | PV of Deferred Cash Flows | 2-step: PV then discount back | Deferral period t |
-| Equivalent Annual Annuity | NPV / Annuity factor | Compare unequal-life projects |
+| Equivalent Annual Annuity | $\frac{NPV}{\frac{1-\frac{1}{(1+i)^n}}{i}}$ | Compare unequal-life projects |
 
 ---
 
