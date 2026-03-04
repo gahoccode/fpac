@@ -75,10 +75,10 @@ $$\frac{\text{EBIT} + \text{Fixed Charges}}{\text{Interest Expense} + \text{Fixe
 ### Operating Leverage
 
 **8. Degree of Operating Leverage (DOL)**
-$$\frac{\text{\% Change in EBIT}}{\text{\% Change in Revenue}}$$
+$$\frac{\% \text{ Change in EBIT}}{\% \text{ Change in Revenue}}$$
 
 **9. Degree of Financial Leverage (DFL)**
-$$\frac{\text{\% Change in Net Income}}{\text{\% Change in EBIT}}$$
+$$\frac{\% \text{ Change in Net Income}}{\% \text{ Change in EBIT}}$$
 
 **10. Degree of Total Leverage (DTL)**
 $$DOL \times DFL$$
