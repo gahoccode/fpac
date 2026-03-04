@@ -124,7 +124,7 @@ $$\frac{\text{COGS}}{\text{Average Accounts Payable}}$$
 $$\frac{\text{Revenue}}{\text{Average Current Assets}}$$
 
 **5. Fixed Asset Turnover**
-$$\frac{\text{Revenue}}{\text{Average Net PP}\&\text{E}}$$
+$$\frac{\text{Revenue}}{\text{Average Net Fixed Assets}}$$
 
 **6. Total Asset Turnover**
 $$\frac{\text{Revenue}}{\text{Average Total Assets}}$$
@@ -242,7 +242,7 @@ $$\text{OCF} - \text{CapEx} + \text{Change in Total Debt}$$
 $$\text{EBIT} \times (1 - \text{Tax Rate}) - (\text{Average Capital Employed} \times \text{WACC})$$
 
 **16. Net PP&E**
-$$\text{Gross PP}\&\text{E} + \text{Capital Expenditures} - \text{Accumulated Depreciation}$$
+$$\text{Gross Fixed Assets} + \text{Capital Expenditures} - \text{Accumulated Depreciation}$$
 
 ---
 
